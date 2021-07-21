@@ -6,10 +6,11 @@ namespace SnakeandLadderProblem
 {
     class snakeandladder
     {
-        public void Player()
+        public void Dice()
         {
-            int player = 0;
-            Console.WriteLine("player position is:" + player);
+            Random random = new Random();
+            int roll = random.Next(1, 7);
+            Console.WriteLine(roll);
         }
     }
 }
