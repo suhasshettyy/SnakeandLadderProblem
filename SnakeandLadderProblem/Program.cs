@@ -7,7 +7,7 @@ namespace SnakeandLadderProblem
         static void Main(string[] args)
         {
             snakeandladder sal = new snakeandladder();
-            sal.Introduction();
+            sal.Player();
         }
     }
 }

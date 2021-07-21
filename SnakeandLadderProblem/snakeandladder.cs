@@ -6,9 +6,10 @@ namespace SnakeandLadderProblem
 {
     class snakeandladder
     {
-        public void Introduction()
+        public void Player()
         {
-            Console.WriteLine("Welcome to Snake and Ladder Problem");
+            int player = 0;
+            Console.WriteLine("player position is:" + player);
         }
     }
 }
