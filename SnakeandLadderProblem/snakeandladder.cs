@@ -8,10 +8,12 @@ namespace SnakeandLadderProblem
     {
 
         public int position = 0;
+        public int diceCount = 0;
         public void Dice()
         {
             while (position < 100)
             {
+                diceCount += 1;
                 Console.WriteLine("The current position of the player is = " + position);
                 Random random = new Random();
                 int dice = random.Next(1, 7);
@@ -39,7 +41,7 @@ namespace SnakeandLadderProblem
                         break;
                 }
             }
-
+            Console.WriteLine("Dice count is : " + diceCount);
         }
     }
 }
