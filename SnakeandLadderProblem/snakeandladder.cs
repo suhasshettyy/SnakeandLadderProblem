@@ -22,6 +22,8 @@ namespace SnakeandLadderProblem
                     case 1:
                         Console.WriteLine("The player got ladder");
                         position += dice;
+                        if (position > 100)
+                            position -= dice;
                         Console.WriteLine("The position of player after dice = " + position);
                         break;
                     case 2:
