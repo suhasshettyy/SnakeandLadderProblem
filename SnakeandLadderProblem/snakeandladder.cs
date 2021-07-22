@@ -14,7 +14,7 @@ namespace SnakeandLadderProblem
             Random random = new Random();
             int dice = random.Next(1, 7);
             Console.WriteLine("Then the player got in dice : " + dice);
-            int choice = random.Next(1, 2);
+            int choice = random.Next(1, 3);
             switch (choice)
             {
                 case 1:
