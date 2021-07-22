@@ -6,7 +6,7 @@ namespace SnakeandLadderProblem
     {
         static void Main(string[] args)
         {
-            snakeandladder sal = new snakeandladder();
+            Snakeandladder sal = new Snakeandladder();
             sal.Dice();
         }
     }
